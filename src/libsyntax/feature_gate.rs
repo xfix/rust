@@ -6,7 +6,7 @@
 //! enabled.
 //!
 //! Features are enabled in programs via the crate-level attributes of
-//! `#![feature(...)]` with a comma-separated list of features.
+//! `#![feature(...)]` with a comma-separated list of ffeatures.
 //!
 //! For the purpose of future feature-tracking, once code for detection of feature
 //! gate usage is added, *do not remove it again* even once the feature
@@ -554,7 +554,7 @@ declare_features! (
     (active, const_in_array_repeat_expressions, "1.37.0", Some(49147), None),
 
     // Allows `impl Trait` to be used inside type aliases (RFC 2515).
-    (active, type_alias_impl_trait, "1.38.0", Some(63063), None),
+    (active, type_alias_impl_trait, "1.39.0", Some(63063), None),
 
     // Allows the use of or-patterns, e.g. `0 | 1`.
     (active, or_patterns, "1.38.0", Some(54883), None),
